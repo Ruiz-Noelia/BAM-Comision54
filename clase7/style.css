@@ -1,0 +1,26 @@
+
+@media (max-width: 300px){
+    body{
+        background-color: yellow;
+    }
+}
+
+@media (min-width: 301px){
+    body{
+        background-color: blue;
+    }
+
+    h1{
+        color: #fff;
+    }
+}
+
+@media (min-width:500px){
+    body{
+        background-color: red;
+    }
+
+    h1{
+        color: black;
+    }
+}
