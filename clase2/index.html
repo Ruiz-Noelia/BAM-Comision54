@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clase 2</title>
+</head>
+
+<body>
+    <!--
+    <h1>Listas de definición</h1>
+    <dl>
+        <dt>Término 1</dt>
+        <dd>Definición 1</dd>
+        <dt>Término 2</dt>
+        <dd>Definición 2</dd>
+        <dt>Término 3</dt>
+        <dd>Definición 3</dd>
+    </dl>-->
+
+    <h1 style="text-align: center;">BIZCOCHUELO DE CACAO</h1>
+    
+    <img src="bizcochuelo.jpg" alt="imagen de torta" style="margin-left: 32%;">
+
+    <div style="margin-left: 30%;">
+        <h2 style="display: inline-block;">INGREDIENTES</h2>
+        <h2 style="display: inline-block; margin-left: 10%;">PROCEDIMIENTO</h2>
+        <br>
+        <!--listas desordenadas - NO importa el órden, se ven items-->
+        <ul style="display: inline-block; max-width: 40%;">
+            <li>Huevos 3</li>
+            <li>Azúcar 200 gramos</li>
+            <li>Manteca 200 gramos</li>
+            <li>Leche 1 taza</li>
+            <li>Harina 2 tazas</li>
+            <li>Cacao 1 taza</li>
+        </ul>
+        <!--listas ordenadas - importa el órden, son numeradas-->
+        <ol style="display: inline-block; max-width: 40%; margin-left: 10%;">
+            <li>Batimos la manteca y el azucar</li>
+            <li>Agregamos los huevos</li>
+            <li>Agregamos la leche</li>
+            <li>Agregeamos el harina de a poco</li>
+            <li>Por ultimo, añadir el cacao</li>
+            <li>Llevar a horno medio por 30'</li>
+        </ol>
+    </div>
+
+
+
+    <div style="background-image: url(granas.gif); max-width: 40%; margin-left: 32%;">
+        <form style="margin-left: 25%;">
+            <label>Nombre:
+                <input type="text" placeholder="Ingresá tu nombre" name="nombre_user" required>
+            </label>
+            <br>
+            <label for="contraseña">Contraseña:</label>
+            <input type="password" id="contraseña" placeholder="Ingresá tu contraseña" name="contraseña" required>
+            <br>
+            <label>Email:
+                <input type="email" placeholder="Ingresá tu email" name="email" required>
+            </label>
+            <br>
+            <label for="comentario"></label>
+            <textarea name="" id="comentario" cols="18" rows="5" placeholder="Dejá tu comentario"></textarea>
+            <br>
+            <input type="submit">
+            <input type="reset">
+        </form>
+    </div>
+</body>
+
+</html>
