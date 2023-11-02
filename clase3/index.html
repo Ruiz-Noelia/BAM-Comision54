@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head> <!--información para el navegador-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clase 3</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Serif:ital@1&family=Sedgwick+Ave+Display&display=swap"
+        rel="stylesheet">
+    <style>
+        * {
+            margin: 3%;
+            border-color: brown;
+        }
+
+        h1{
+            font-family: 'PT Serif', serif;
+            font-family: 'Sedgwick Ave Display', cursive;
+            text-align: center;
+            font-weight: 200;
+        }
+
+        section div p {
+            color: yellow;
+        }
+
+        p {
+            color: pink;
+            font-size: 30px;
+            text-align: center;
+            /*background-color: black;*/
+
+        }
+
+        #verde {
+            color: #a2c579;
+        }
+
+        .color-azul {
+            color: #176b87;
+        }
+
+        .violeta {
+            color: rgb(200, 0, 200);
+            /*red, green, blue . valores de 0 a 255*/
+
+        }
+
+        #imagen {
+            max-width: 90%;
+        }
+
+        fieldset {
+            background-color: fuchsia;
+            margin-left: 35%;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Estética de B.A multiplica</h1>
+    </header>
+
+    <main>
+        <img src="./entrada.jpg" alt="entrada-salón" id="imagen">
+    </main>
+    <section>
+        <p style="color: red;" !important>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus ratione eum
+            numquam tempora temporibus, minima beatae eos culpa possimus fugit ea ad alias ipsum cum accusamus.
+            Provident quod quia quos.</p>
+        <p id="verde">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus ratione eum numquam tempora
+            temporibus, minima beatae eos culpa possimus fugit ea ad alias ipsum cum accusamus. Provident quod quia
+            quos.</p>
+        <p class="color-azul">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus ratione eum numquam tempora
+            temporibus, minima beatae eos culpa possimus fugit ea ad alias ipsum cum accusamus. Provident quod quia
+            quos.</p>
+        <p class="violeta">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus ratione eum numquam tempora
+            temporibus, minima beatae eos culpa possimus fugit ea ad alias ipsum cum accusamus. Provident quod quia
+            quos.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus ratione eum numquam tempora temporibus, minima
+            beatae eos culpa possimus fugit ea ad alias ipsum cum accusamus. Provident quod quia quos.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus ratione eum numquam tempora temporibus, minima
+            beatae eos culpa possimus fugit ea ad alias ipsum cum accusamus. Provident quod quia quos.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus ratione eum numquam tempora temporibus, minima
+            beatae eos culpa possimus fugit ea ad alias ipsum cum accusamus. Provident quod quia quos.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus ratione eum numquam tempora temporibus, minima
+            beatae eos culpa possimus fugit ea ad alias ipsum cum accusamus. Provident quod quia quos.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus ratione eum numquam tempora temporibus, minima
+            beatae eos culpa possimus fugit ea ad alias ipsum cum accusamus. Provident quod quia quos.</p>
+        <div>
+            <p style="color: orange;">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Asperiores, possimus
+                quasi est labore iure doloribus repellat quibusdam quo laboriosam assumenda error aliquid repudiandae
+                quis adipisci illo minima consectetur deserunt obcaecati.</p>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus voluptas, odit corporis ullam tenetur
+                enim, sint itaque nisi molestias perferendis suscipit adipisci fugit pariatur possimus inventore dolore
+                saepe commodi molestiae!</p>
+        </div>
+    </section>
+    <footer>
+        <fieldset style="max-width: 20%;">
+            <legend>Formulario de contacto</legend>
+            <form action="https://formspree.io/f/xpzgyvra" method="post">
+                Nombre <input type="text" placeholder="Ingresá tu nombre" name="nombre" required>
+                <br>
+                Email <input type="email" placeholder="Ingresá tu email" name="email" required>
+                <br> Mensaje <br><textarea name="mensaje" cols="8" rows="5" required></textarea>
+                <input type="submit">
+            </form>
+        </fieldset>
+    </footer>
+</body>
+
+</html>
