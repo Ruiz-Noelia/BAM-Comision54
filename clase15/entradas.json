@@ -1,0 +1,54 @@
+[
+    {
+        "nombre": "Noelia",
+        "apellido": "Ruiz",
+        "edad": 32,
+        "pelicula": "El justiciero 3",
+        "genero": "acción",
+        "anioLanzamiento": 2023,
+        "subtitulada": true,
+        "butaca": {
+            "fila": "a",
+            "numeroAsiento": 5,
+            "esPasillo": true
+        },
+        "precio": 1800,
+        "compraCombo": true,
+        "formaPago": "efectivo"
+    },
+    {
+        "nombre": "Juan",
+        "apellido": "Gonzalez",
+        "edad": 46,
+        "pelicula": "La reina de la noche",
+        "genero": "terror",
+        "anioLanzamiento": 2022,
+        "subtitulada": false,
+
+        "butaca": [
+            {
+                "fila": "b",
+                "numeroAsiento": 7,
+                "esPasillo": false
+            },
+            {
+                "fila": "b",
+                "numeroAsiento": 8,
+                "esPasillo": false
+            },
+            {
+                "fila": "b",
+                "numeroAsiento": 9,
+                "esPasillo": false
+            },
+            {
+                "fila": "b",
+                "numeroAsiento": 10,
+                "esPasillo": true
+            }
+        ],
+        "precio": 2200,
+        "compraCombo": true,
+        "formaPago": "debito"
+    }
+]
